@@ -18,5 +18,6 @@
 	},
 	"forwardPorts": [
 		8081
-	]
+	],
+	"postCreateCommand": "pio upgrade"
 }
