@@ -1,9 +1,9 @@
 {
 	"name": "PlatformIO devcontainer",
-	// "build": {
-    //     "dockerfile": "Dockerfile"
-    // },
-	"image": "hsun1031/devcontainer_platformio:latest",
+	"build": {
+        "dockerfile": "Dockerfile"
+    },
+	// "image": "hsun1031/devcontainer_platformio:latest",
 	"customizations": {
 		"vscode": {
             "extensions": [
