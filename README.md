@@ -57,3 +57,19 @@ Flash and Monitor.
 pio remote run --target upload --environment <your board>
 pio remote device monitor 
 ```
+## esp-web-flash-server
+
+[Github](https://github.com/esp-rs/esp-web-flash-server)
+
+### Command
+
+```bash
+web-flash --chip <Yor Chip> .pio/build/<Your ENV>/firmware.elf
+```
+
+example:
+
+```bash
+web-flash --chip esp32 .pio/build/esp32doit-devkit-v1/firmware.elf
+```
+
