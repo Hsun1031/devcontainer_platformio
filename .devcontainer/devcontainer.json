@@ -16,7 +16,7 @@
 			}
 		}
 	},
-	"onCreateCommand": "pio project init --ide vscode || true",
+	"onCreateCommand": "pio project init --ide vscode --board esp32doit-devkit-v1 || true",
 	"postStartCommand": "pio home --port 8080 --host 0.0.0.0",
 	"forwardPorts": [
 		8080, 8081
